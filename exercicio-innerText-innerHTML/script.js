@@ -12,6 +12,8 @@ console.log(ol);
 
 h1.innerText = "Bem vindo em Javascript";
 
+a.innerText = "Links disponíveis";
+
 ul.innerHTML = `
 <li> Item 1 </li>
 <li> Item 2 </li>
