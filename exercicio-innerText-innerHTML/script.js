@@ -4,7 +4,7 @@ console.log(h1);
 let ul = document.querySelector("ul");
 console.log(ul);
 
-let a = document.getElementById("a");
+let a = document.querySelector("a");
 console.log(a);
 
 let ol = document.getElementById("lista-ordenada");
