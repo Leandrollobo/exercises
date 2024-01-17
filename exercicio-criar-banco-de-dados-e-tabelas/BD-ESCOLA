@@ -1,0 +1,12 @@
+/*Cria o banco de dados */
+CREATE DATABASE ESCOLA
+
+
+/*cria a tabela aluno*/
+CREATE TABLE Aluno (
+/*definição dos atributos(colunas(Id, Nome, E-mail, Endereço*/
+Id SERIAL PRIMARY KEY, /*adiciona  a chave primária de nome ID (identificador)*/
+Nome VARCHAR(50), /*um atributo nome do tipo varchar;*/
+E-mail VARCHAR(50), /* um atributo e-mail do tipo varchar;*/
+Endereco VARCHAR(255) /*um atributo endereço do tipo varchar.*/
+)
